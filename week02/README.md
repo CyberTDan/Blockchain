@@ -18,3 +18,5 @@ cursor.execute('''
 ```
 
 ## Modify the code to create Blockchains on demand
+
+![alt text](https://github.com/CyberTDan/Blockchain/tree/main/week02/download.jpeg?raw=true)
