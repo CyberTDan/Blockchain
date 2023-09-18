@@ -68,3 +68,4 @@ def th_proof_of_work(block, dificulty, thread_number=4):
 ```
 
 Number of threads can be adjusted with respect to your platform
+
