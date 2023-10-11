@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ERC20 Interface</title>
+</head>
+<body>
+
+<h2>Get Balance</h2>
+<form action="/balance" method="post">
+    Address: <input type="text" name="address">
+    <input type="submit" value="Get Balance">
+</form>
+
+<h2>Transfer Tokens</h2>
+<form action="/transfer" method="post">
+    From Address: <input type="text" name="from_address"><br>
+    Private Key: <input type="password" name="private_key"><br>
+    To Address: <input type="text" name="to_address"><br>
+    Amount: <input type="text" name="amount"><br>
+    <input type="submit" value="Transfer">
+</form>
+
+</body>
+</html>
